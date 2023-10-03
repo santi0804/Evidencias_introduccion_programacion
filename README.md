@@ -14,7 +14,7 @@ git clone https://github.com/jfinfocesde/evidencias.git
 
 ## Tutorial
 
-### 1. Crear repositorio 
+### 1. Crear repositorio
 
 - Clonar el repositorio y eliminar la copia local, borrando la carpeta .git.
 - Crear un nuevo repositorio en GitHub y realizar la inicialización en la carpeta del repositorio previamente clonado.
@@ -24,19 +24,19 @@ git clone https://github.com/jfinfocesde/evidencias.git
 
 ### 2. Configurar plantilla
 
-La configuración de la plantilla se lleva a cabo en el archivo "_config.yml", en el cual se definen los siguientes elementos:
+La configuración de la plantilla se lleva a cabo en el archivo "\_config.yml", en el cual se definen los siguientes elementos:
 
 ```yml
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 title: Documentación
 
-nombres: Nombres y Apellidos
-submodulo: Lógica de Programación
+nombres: Santiago Tamayo Pérez
+submodulo: INTRODUCIÓN A LA PROGRAMACIÓN
 periodo: 2023-2
-url_foto:  Enlace a la imagen
+url_foto: https://firebasestorage.googleapis.com/v0/b/a1234-ecd94.appspot.com/o/FOTO%20REDONDA.png?alt=media&token=7a26f4a8-1eea-4a52-9f5f-e42cb127c27b&_gl=1*z8fap*_ga*MTY0ODQyMDA3My4xNjk2MDMzMTUw*_ga_CW55HF8NVT*MTY5NjAzMzE1Mi4xLjEuMTY5NjAzMzI3MC42LjAuMA..
 ```
 
 ### 3. Actualizar contenido
