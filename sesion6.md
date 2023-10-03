@@ -4,7 +4,9 @@
 ## Sesión 6
 
 
-<!-- Su documentación aquí -->
+#### en esta sesion realizamos un examen virtual.
+
+
 
 
 
