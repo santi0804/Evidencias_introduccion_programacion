@@ -1,13 +1,7 @@
 <!-- No borrar o modificar -->
+
 [Inicio](./index.md)
 
-## Sesión 12 
+## Sesión 12
 
-
-<!-- Su documentación aquí -->
-
-
-
-
-
-
+### Realizamos examen en 2 momentos
