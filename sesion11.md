@@ -99,81 +99,81 @@ Crear un documento HTML y probar cada uno de los ejemplos de la sesión 11
 ```
 
 input[type="color"]::-moz-color-swatch {
-    border-radius: 10px;
-    border-style: none;
-  }
-
-  .joinBtn {
-    width: 10em;
-    height: 5ex;
-    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
-  }
-
-  .joinBtn:active {
-    box-shadow: 2px 2px 5px #fc894d;
-  }
-
-
-  p {
-    font-weight: bold;
-  }
-
-  a:any-link {
-    color: forestgreen;
-    text-decoration-color: hotpink;
-  }
-
-  textarea:blank {
-    border: 3px solid red;
-  }
-
-  td:-moz-drag-over {
-    color: red;
-  }
-
-  div {
-    border: 4px solid red;
-  }
-
-  :-moz-only-whitespace {
-    border-color: rgb(4, 246, 4);
-  }
-
-  p {
-    background-color: white;
-  }
-
-  p:hover {
-    background-color: gray;
-  }
-
-  #mybox {
-    background: linear-gradient(to bottom, yellow, cyan);
-    width: 200px;
-    height: 200px;
-  }
-
-  #mybox:-moz-window-inactive {
-    background: cyan;
-  }
-
-  input[type="range"]::-moz-range-progress {
-    background-color: green;
-    height: 1em;
-  }
-
-  :current(p, span) {
-    background-color: yellow;
-  }
-
-  video {
-    height: 300px;
-    margin-bottom: 40px;
+  border-radius: 10px;
+  border-style: none;
 }
+
+.joinBtn {
+  width: 10em;
+  height: 5ex;
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.joinBtn:active {
+  box-shadow: 2px 2px 5px #fc894d;
+}
+
+p {
+  font-weight: bold;
+}
+
+a:any-link {
+  color: greenyellow;
+  text-decoration-color: hotpink;
+}
+
+textarea:blank {
+  border: 3px solid green;
+}
+
+td:-moz-drag-over {
+  color: black;
+}
+
+div {
+  border: 4px solid red;
+}
+
+:-moz-only-whitespace {
+  border-color: rgb(4, 246, 4);
+}
+
+p {
+  background-color: white;
+}
+
+p:hover {
+  background-color: gray;
+}
+
+#mybox {
+  background: linear-gradient(to bottom, rgb(190, 154, 88), rgb(113, 199, 228));
+  width: 200px;
+  height: 200px;
+}
+
+#mybox:-moz-window-inactive {
+  background: cyan;
+}
+
+input[type="range"]::-moz-range-progress {
+  background-color: green;
+  height: 1em;
+}
+
+:current(p, span) {
+  background-color: yellow;
+}
+
+video {
+  height: 300px;
+  margin-bottom: 40px;
+}
+
 
 ```
