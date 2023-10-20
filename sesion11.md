@@ -14,82 +14,82 @@ Crear un documento HTML y probar cada uno de los ejemplos de la sesión 11
 
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title><input type="color" value="#de2020" />
-    <link rel="stylesheet" href="Style.css">
-    <p>Suscribete a nuestro canal</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <input type="color" value="#de2020" />
+    <link rel="stylesheet" href="Style.css" />
+    <p>Suscribete a este canal</p>
     <button class="joinBtn">Subscribe</button>
-    <p>Paginas que quizas ayas visitado:</p>
+    <p>Paginas visitar:</p>
     <ul>
-        <li>
-            <a href="https://developer.mozilla.org">MDN Web Docs</a>
-        </li>
-        <li>
-            <a href="https://www.youtube.com/YouTube">Google</a>
-        </li>
+      <li>
+        <a href="https://developer.mozilla.org">MDN Web Docs</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/YouTube">Google</a>
+      </li>
     </ul>
-    <p>Paginas que poco esten en tu historial:</p>
+    <p>Historial de pagina:</p>
     <ul>
-        <li>
-            <a href="https://developer.mozilla.org/missing-3">Random MDN page</a>
-        </li>
-        <li>
-            <a href="https://example.com/missing-3">Random Example page</a>
-        </li>
-        <P>
-            Simple: ejemplo en blanco
-            En eventuales navegadores compatibles, la :blankpseudoclase permitirá a los desarrolladores resaltar de
-            alguna manera los controles de entrada que no son necesarios, pero que aún no tienen contenido completo, tal
-            vez como un recordatorio para los usuarios.
-        </P>
-    </ul><textarea></textarea>
+      <li>
+        <a href="https://developer.mozilla.org/missing-3">Random MDN page</a>
+      </li>
+      <li>
+        <a href="https://example.com/missing-3">Random Example page</a>
+      </li>
+      <p>
+        Nikola Tesla (Smiljan, actual Croacia, 1856 - Nueva York, 1943) Físico
+        estadounidense de origen serbio. Estudió en las universidades de Graz
+        (Austria) y Praga. Después de haber trabajado en varias industrias
+        eléctricas en París y en Budapest, se trasladó a Estados Unidos (1884),
+        donde trabajó a las órdenes de Thomas A. Edison, entonces partidario de
+        la corriente eléctrica continua
+      </p>
+    </ul>
+    <textarea></textarea>
     <table border="1">
-        <p>:-moz-arrastrar-sobre</p>
-        <tr>
-            <td width="100px" height="100px">Arrastrar</td>
-        </tr>
+      <p>:-moz-arrastrar-sobre</p>
+      <tr>
+        <td width="100px" height="100px">Clia aqui para arrastrar</td>
+      </tr>
     </table>
-    <div> </div>
-    <p>Cuando el usuario visite el enlace por primera vez, tendrá un fondo rojo. Cuando el usuario haga clic en el
-        enlace, tendrá un fondo verde.</p>
+    <div></div>
+    <p>
+      Cuando el usuario visite el enlace por primera vez, tendrá un fondo rojo.
+      Cuando el usuario haga clic en el enlace, tendrá un fondo verde.
+    </p>
     <a href="#">Enlace</a>
-    <p>Ejemplos
-        Este ejemplo altera la apariencia del fondo de un cuadro dependiendo de si su ventana está activa o no.</p>
+    <p>
+      Ejemplos Este ejemplo altera la apariencia del fondo de un cuadro
+      dependiendo de si su ventana está activa o no.
+    </p>
     <div id="mybox">
-        <p>Esta es una caja!</p>
+      <p>CAJA</p>
     </div>
-    <P>
-        EJEMPLO
-    </P>
+    <p>EJEMPLO</p>
 
-    <input type="range" min="0" max="100" step="5" value="50" /><DIv>
-
-
-        <video src="video.mp4" controls></video>
-        <video controls preload="metadata">
-        <source src="video.mp4" type="video/mp4" />
+    <input type="range" min="0" max="100" step="5" value="50" />
+    <div>
+      <video src="video/168787 (1080p).mp4" controls></video>
+      <video controls preload="metadata">
+        <source src="video/star_-_6962 (540p).mp4" type="video/mp4" />
         <source src="video.webm" type="video/webm" />
         <track
           label="English"
           kind="subtitles"
           srclang="en"
           src="subtitles.vtt"
-          default />
+          default
+        />
       </video>
+    </div>
+  </head>
 
-    </DIv>
-
-
-</head>
-
-<body>
-
-</body>
-
+  <body></body>
 </html>
+
 
 
 ```
